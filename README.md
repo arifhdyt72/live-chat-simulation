@@ -1,4 +1,7 @@
 # 🧩 Chat Service
+![Go Version](https://img.shields.io/badge/go-1.20+-blue)
+![License](https://img.shields.io/badge/license-private-lightgrey)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
 ## 📝 Description
 
