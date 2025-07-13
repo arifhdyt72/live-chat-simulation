@@ -9,6 +9,23 @@ This repository contains a **Chat Message Service** built in Go. It handles real
 
 ---
 
+## 🧪 Tech Stack
+
+| Layer               | Technology             |
+|---------------------|------------------------|
+| Language            | Go (Golang)            |
+| Real-time Engine    | WebSocket              |
+| Caching / PubSub    | Redis                  |
+| Database            | MongoDB                |
+| Message Storage     | AWS S3 (media files)   |
+| Background Job      | Goroutine              |
+| Containerization    | Docker, Docker Compose |
+| Configuration       | ENV, JSON config       |
+| Logging             | Logrus / file-based    |
+| Build Tools         | Makefile               |
+
+---
+
 ## 🚀 Features
 
 - ✅ Real-time chat using WebSocket
@@ -88,3 +105,5 @@ docker-compose up -d --build --force-recreate
 ```bash
 make build
 ```
+
+> **Disclaimer:** This project is a private/internal system developed as part of my professional work. The repository does not include proprietary code, but only outlines the structure, components, and features for documentation and portfolio purposes.
